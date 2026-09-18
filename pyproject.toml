@@ -1,0 +1,13 @@
+[project]
+name = "kvstore-grpc"
+version = "0.1.0"
+description = "Key-Value Store on gRPC"
+authors = [
+    { name = "Twoot", email = "inenquser@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "grpcio>=1.84.0",
+    "grpcio-tools>=1.84.0",
+]
+
