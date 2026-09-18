@@ -11,3 +11,8 @@ dependencies = [
     "grpcio-tools>=1.84.0",
 ]
 
+[dependency-groups]
+dev = [
+    "ruff>=0.16.8",
+]
+
