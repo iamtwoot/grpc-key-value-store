@@ -16,3 +16,5 @@ dev = [
     "ruff>=0.16.8",
 ]
 
+[tool.ruff]
+exclude = ["kvstore_pb2.py", "kvstore_pb2.pyi", "kvstore_pb2_grpc.py"]
